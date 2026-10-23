@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.vercel/
+coverage/
+tmp/
+*.log
+*.csv
+*.dump
+*.zip
+*.sqlite*
+exports/
