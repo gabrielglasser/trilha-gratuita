@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#213d3a" />
+    <meta
+      name="description"
+      content="Encontre cursos gratuitos que combinam com seu perfil. Compare opções, requisitos e certificados em fontes oficiais."
+    />
+    <title>Trilha Gratuita — seu próximo aprendizado</title>
+    <link rel="icon" href="/mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Pular para o conteúdo</a>
+    <header class="header">
+      <a href="#inicio" class="brand" aria-label="Trilha Gratuita — início"
+        ><img src="/mark.svg" width="34" height="34" alt="" /><span
+          >trilha<span class="brand-light">gratuita</span></span
+        ></a
+      >
+      <nav aria-label="Principal">
+        <a href="#catalogo">Explorar cursos</a><a href="#sobre">O projeto</a
+        ><a class="button small" href="#perfil"
+          >Encontrar meu curso <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <div id="mode-banner" class="mode-banner" hidden></div>
+    <main id="main" tabindex="-1">
+      <div class="loading" role="status">
+        Preparando os caminhos de aprendizagem…
+      </div>
+    </main>
+    <footer>
+      <a class="brand" href="#inicio"
+        >trilha<span class="brand-light">gratuita</span></a
+      >
+      <p>Um projeto de extensão para aproximar pessoas do conhecimento.</p>
+      <div>
+        <a href="#privacidade">Privacidade e exclusão</a
+        ><a href="#admin">Área do responsável</a>
+      </div>
+      <p class="fine">
+        Cursos de instituições independentes. Sem vínculo ou parceria oficial.
+      </p>
+    </footer>
+    <div id="announcer" class="sr-only" aria-live="polite"></div>
+    <dialog id="course-dialog" aria-labelledby="dialog-title">
+      <button class="icon-close" id="close-dialog" aria-label="Fechar detalhes">
+        ×
+      </button>
+      <div id="dialog-content"></div>
+    </dialog>
+    <noscript
+      >Ative o JavaScript para usar o questionário e o catálogo. Nenhuma
+      participação é coletada sem consentimento.</noscript
+    >
+  </body>
+</html>
